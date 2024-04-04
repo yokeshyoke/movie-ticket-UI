@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+  <tr>
+    <th>movie</th>
+    <th>Contact</th>
+    <th>available tickets</th>
+    <th>fare</th>
+
+  </tr>
+  <tr>
+    <td>movie1</td>
+    <td>234567</td>
+    <td>10</td>
+    <td>180</td>
+    <td> <p><a href="details.html">details</a></p></td>
+
+  </tr>
+  <tr>
+    <td>movie2</td>
+    <td>234567</td>
+    <td>20</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>movie3</td>
+    <td>456767</td>
+    <td>30</td>
+    <td>125</td>
+  </tr>
+  <tr>
+    <td>movie4</td>
+    <td>12345</td>
+    <td>35</td>
+    <td>135</td>
+  </tr>
+  <tr>
+    <td>movie5</td>
+    <td>2345678</td>
+    <td>40</td>
+    <td>120</td>
+  </tr>
+  <tr>
+    <td>movie6</td>
+    <td>23456</td>
+    <td>50</td>
+    <td>100</td>
+  </tr>
+</table>
+
+
+<button id="myBtn">movie number</button>
+<button id="myBtn">contact</button>
+<button id="myBtn">no of tickets available</button>
+<button id="myBtn">fare</button>
+<button id="myBtn">fare</button>
+
+
+<script>
+document.getElementById("myBtn").addEventListener("click", myFunction);
+
+
+function myFunction() {
+  alert ("movie number:1");
+  alert ("contact:123446");
+  alert ("no of ticket available:10");
+  alert ("fare:1280");
+
+}
+</script>
+
+
+
+
+</body>
+</html>
